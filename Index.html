@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panvel Municipal Corporation</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--css files-->
+    <link rel="stylesheet" type="text/css" href="css/Style.css">
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+</head>
+
+
+<!--Title Bar-->
+
+
+<body d-flex flex-column min-vh-100>
+    <div class="container-fluid">.
+        <div class="row">
+            <div class="col-sm-6 g-0">
+                <a class="navbar-brand" href="/">
+                    <img src="./Images/logo.png" style="width: 120px; height: 100px;" alt="pmclogo.jpg"></a>
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="nav-item-1">
+                        <h4>Panvel Municipal Corporation</h4>
+                        <p>
+                        <h4>Property Tax</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="nav-item-2">
+                    <h4>Customer Care Number</h4>
+                    <a href="4409876658" style="color:red">
+                        <h4>44******58</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="DownloadForms.html">Download Forms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Schemes&Subsidies.html">Schemes & Subsidies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="LogIn.html">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button id="search-button" type="button" class="btn btn-light">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--Carousal(SlideShow)-->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./Images/Carousal-imgs/slide-show-1.jpg" class="d-block w-100"
+                    style="width: 500px; height: 700px" alt="Carousal-img-1.jpg">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./Images/Carousal-imgs/slide-show-2.jpeg" class="d-block w-100"
+                    style="width: 500px; height: 700px" alt="Carousal-img-2.jpg">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./Images/Carousal-imgs/slide-show-3.jpg" class="d-block w-100"
+                    style="width: 500px; height: 700px" alt="Carousal-img-3.jpg">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Cards -->
+
+    <div class="cards">
+        <div class="row g-0">
+            <!--Left Side-->
+            <div class="col-lg-8">
+                <div class="leftside d-flex justify-content-center align-items-center">
+
+                    <!--Cards start from here-->
+
+                    <div class="taxCards">
+                        <!--1-->
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-sm-2">
+                                    <img src="./Images/crd-imgs/card img1.png" class="img-rounded">
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-body">
+                                        <h4 class="card-title">PAY PROPERTY TAX</h4>
+                                        <p class="card-text">PAY PROPERTY TAX ONLINE</p>
+                                    </div>
+                                </div>
+                                <div class="col align-self-center">
+                                    <div class="button">
+                                        <a href="#" button type="button" class="btn btn-primary">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--2-->
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-sm-2">
+                                    <img src="./Images/crd-imgs/card img2.png" class="img-rounded">
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Apply for NOC (No dues Certificate)</h4>
+                                        <p class="card-text">Now, get "No Dues Certificate o¯ your emailjust by few
+                                            clicks</p>
+                                    </div>
+                                </div>
+                                <div class="col align-self-center">
+                                    <div class="button">
+                                        <a href="#" button type="button" class="btn btn-primary">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--3-->
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-sm-2">
+                                    <img src="./Images/crd-imgs/card img3.png" class="img-rounded">
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Property Tax Online Payment
+                                            Receipt</h4>
+                                        <p class="card-text">Now, get "No Dues Certificate o¯ your email
+                                            just by few clicks</p>
+                                    </div>
+                                </div>
+                                <div class="col align-self-center">
+                                    <div class="button">
+                                        <a href="#" button type="button" class="btn btn-primary">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--4-->
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-sm-2">
+                                    <img src="./Images/crd-imgs/card img4.png" class="img-rounded">
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Property Tax Calculator</h4>
+                                        <p class="card-text">calculate your property tax online</p>
+                                    </div>
+                                </div>
+                                <div class="col align-self-center">
+                                    <div class="button">
+                                        <a href="#" button type="button" class="btn btn-primary">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--5-->
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-sm-2">
+                                    <img src="./Images/crd-imgs/card img4.png" class="img-rounded">
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Title / Name Transfer</h4>
+                                        <p class="card-text">calculate your property tax online</p>
+                                    </div>
+                                </div>
+                                <div class="col align-self-center">
+                                    <div class="button">
+                                        <a href="#" button type="button" class="btn btn-primary">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--6-->
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-sm-2">
+                                    <img src="./Images/crd-imgs/card img4.png" class="img-rounded">
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Property TaxRules & Procedures</h4>
+                                        <p class="card-text">calculate your property tax online</p>
+                                    </div>
+                                </div>
+                                <div class="col align-self-center">
+                                    <div class="button">
+                                        <a href="#" button type="button" class="btn btn-primary">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--7-->
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-sm-2">
+                                    <img src="./Images/crd-imgs/card img4.png" class="img-rounded">
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Know Your Application Status</h4>
+                                        <p class="card-text">calculate your property tax online</p>
+                                    </div>
+                                </div>
+                                <div class="col align-self-center">
+                                    <div class="button">
+                                        <a href="#" button type="button" class="btn btn-primary">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--8-->
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-sm-2">
+                                    <img src="./Images/crd-imgs/card img4.png" class="img-rounded">
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card-body">
+                                        <h4 class="card-title">New Assessment</h4>
+                                        <p class="card-text">calculate your property tax online</p>
+                                    </div>
+                                </div>
+                                <div class="col align-self-center">
+                                    <div class="button">
+                                        <a href="#" button type="button" class="btn btn-primary">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--9-->
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-sm-2">
+                                    <img src="./Images/crd-imgs/card img4.png" class="img-rounded">
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Assessment Guidelines</h4>
+                                        <p class="card-text">calculate your property tax online</p>
+                                    </div>
+                                </div>
+                                <div class="col align-self-center">
+                                    <div class="button">
+                                        <a href="#" button type="button" class="btn btn-primary">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Right Cards-->
+
+            <div class="col-lg-4">
+                <div class="rightside  d-flex justify-content-center align-items-center">
+
+                    <!--1st Card Start's Here-->
+                    <div class="scrollcard">
+                        <div class="scrollcard-body">
+                            <h2 class="card-header text-white bg-primary mb-3"><b>NEWS & EVENTS</b></h2>
+                            <div class="scrollcard-text">
+                                <p><B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.</p>
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......</p>
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p> <B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p><B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.</p>
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......</p>
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p> <B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p><B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.</p>
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......</p>
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p> <B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p><B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.</p>
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......</p>
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p> <B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p><B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.</p>
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......</p>
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p> <B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p><B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.</p>
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......</p>
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p> <B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p><B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.</p>
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......</p>
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p> <B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p><B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.</p>
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......</p>
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                                <p> <B>NEW :-</B>Department of Taxation and Tax
+                                    Collection-The highest income tax collection in
+                                    the history of the income tax department.
+                                <p><b>NEW :-</b>-Department of Encroachment-All the
+                                    citizens are informed through this public
+                                    disclosure that apart from the official mandai in
+                                    the city of Pune, the Standing Committee has
+                                    decided to collect ......
+                                <p><b>NEW :-</b>Convallis at justo aliquet pulvinar nulla,
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum vitae imperdiet augue.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna, porttitor
+                                    Convallis at justo aliquet pulvinar nulla.
+                                    Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--2nd Card start's here-->
+
+                <div class="rightside  d-flex justify-content-center align-items-center">
+                    <div class="scrollcard">
+                        <div class="scrollcard-body">
+                            <h2 class="card-header text-white bg-success mb-3"><b> SCHEMES & SUBSIZIES</b></h2>
+                            <div class="scrollcard-text">
+                                <li p> Department of Taxation and Tax CollectionThe highest income tax collection in the
+                                    history of the income tax department.</p>
+                                <li p>Department of Encroachment All the citizens
+                                    are informed through this public disclosure
+                                    that apart from the official mandai in the city
+                                    of Pune, the Standing Committee has decided
+                                    to collect .....</p>
+                                </li>
+                                <li p> Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum itae imperdiet augue.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet
+                                    luctus enenatis, lectus magna fringilla urna,
+                                    porttitor</p>
+                                <li p>Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur </p>
+                                <li p> Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum itae imperdiet augue.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet
+                                    luctus enenatis, lectus magna fringilla urna,
+                                    porttitor</p>
+                                <li p>Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur </p>
+                                <li p> Department of Taxation and Tax CollectionThe highest income tax collection in the
+                                    history of the income tax department.</p>
+                                <li p>Department of Encroachment All the citizens
+                                    are informed through this public disclosure
+                                    that apart from the official mandai in the city
+                                    of Pune, the Standing Committee has decided
+                                    to collect .....</p>
+                                </li>
+                                <li p> Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum itae imperdiet augue.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet
+                                    luctus enenatis, lectus magna fringilla urna,
+                                    porttitor</p>
+                                <li p>Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur </p>
+                                <li p> Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum itae imperdiet augue.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet
+                                    luctus enenatis, lectus magna fringilla urna,
+                                    porttitor</p>
+                                <li p>Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur </p>
+                                <li p> Department of Taxation and Tax CollectionThe highest income tax collection in the
+                                    history of the income tax department.</p>
+                                <li p>Department of Encroachment All the citizens
+                                    are informed through this public disclosure
+                                    that apart from the official mandai in the city
+                                    of Pune, the Standing Committee has decided
+                                    to collect .....</p>
+                                </li>
+                                <li p> Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum itae imperdiet augue.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet
+                                    luctus enenatis, lectus magna fringilla urna,
+                                    porttitor</p>
+                                <li p>Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur </p>
+                                <li p> Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum itae imperdiet augue.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet
+                                    luctus enenatis, lectus magna fringilla urna,
+                                    porttitor</p>
+                                <li p>Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur </p>
+                                <li p> Department of Taxation and Tax CollectionThe highest income tax collection in the
+                                    history of the income tax department.</p>
+                                <li p>Department of Encroachment All the citizens
+                                    are informed through this public disclosure
+                                    that apart from the official mandai in the city
+                                    of Pune, the Standing Committee has decided
+                                    to collect .....</p>
+                                </li>
+                                <li p> Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum itae imperdiet augue.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet
+                                    luctus enenatis, lectus magna fringilla urna,
+                                    porttitor</p>
+                                <li p>Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur </p>
+                                <li p> Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum itae imperdiet augue.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet
+                                    luctus enenatis, lectus magna fringilla urna,
+                                    porttitor</p>
+                                <li p>Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur </p>
+                                <li p> Department of Taxation and Tax CollectionThe highest income tax collection in the
+                                    history of the income tax department.</p>
+                                <li p>Department of Encroachment All the citizens
+                                    are informed through this public disclosure
+                                    that apart from the official mandai in the city
+                                    of Pune, the Standing Committee has decided
+                                    to collect .....</p>
+                                </li>
+                                <li p> Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum itae imperdiet augue.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet
+                                    luctus enenatis, lectus magna fringilla urna,
+                                    porttitor</p>
+                                <li p>Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur </p>
+                                <li p> Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum itae imperdiet augue.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet
+                                    luctus enenatis, lectus magna fringilla urna,
+                                    porttitor</p>
+                                <li p>Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur </p>
+                                <li p> Department of Taxation and Tax CollectionThe highest income tax collection in the
+                                    history of the income tax department.</p>
+                                <li p>Department of Encroachment All the citizens
+                                    are informed through this public disclosure
+                                    that apart from the official mandai in the city
+                                    of Pune, the Standing Committee has decided
+                                    to collect .....</p>
+                                </li>
+                                <li p> Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum itae imperdiet augue.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet
+                                    luctus enenatis, lectus magna fringilla urna,
+                                    porttitor</p>
+                                <li p>Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur </p>
+                                <li p> Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ipsum itae imperdiet augue.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit ut aliquam, purus sit amet
+                                    luctus enenatis, lectus magna fringilla urna,
+                                    porttitor</p>
+                                <li p>Convallis at justo aliquet pulvinar ¯ulla.</p>
+                                <li p> Lorem ipsum dolor sit amet, consectetur </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--footer-->
+
+    <footer class="bg-dark text-center text-light  text-lg-start">
+        <div class="container-fluid ">
+            <div class="footer-content row g-0">
+                <div class="col">
+                    <a class="navbar-brand" href="/"><img src="./Images/logo.png" style="width: 120px; height: 120px;"
+                            alt="pmclogo.jpg"></a>
+                </div>
+                <div class="col-6">
+                    <section class="text-center">
+                        <p>© 2020. All RIGHT RESERVED</p>
+                        <p>FOR BEST VIEW OF WEBSITE USE FIREFOX,CHROME, IE 9+ LATEST</p>
+                        <h5 class="text-uppercase text-Light">total NO of visitors:- 888447</h5>
+                    </section>
+                </div>
+                <div class="col">
+                    <div class="socialmedia">
+                        <section class="mb-4">
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;"
+                                href="https://twitter.com/i/flow/login" role="button"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
+                                href="https://www.facebook.com/" role="button"><i class="fab fa-facebook-f"></i></a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
