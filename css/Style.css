@@ -3,65 +3,49 @@
     .header {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         height: 6rem;
+
     }
 
 }
-.nav-item-1 {
-    margin-top: 1rem;
-}
-
-.nav-item-2 {
-    /* margin-top: 1rem; */
-    /* margin-right: 1rem; */
-}
-
 .navbar {
-
     display: flex;
     justify-content: space;
 }
 
 .navbar-white {
     background: white;
-    height: 100px;
+    height: auto;
     width: auto;
 }
 
 .navbar-brand {
-    top: 0;
     float: left;
     max-height: auto;
-    margin: 0px;
+
 }
 
 .nav-item-1 {
     float: left;
     text-align: start;
     width: 100%;
+    padding: 1rem;
 }
 
 .nav-item-2 {
     float: right;
     text-align: center;
+    padding: 1rem;
 }
-
-.search-btn {
-    padding: 0;
-}
-
 
 
 /*carousel*/
 
-
 .carousel-inner {
     width: "500px";
-    height: "800px";
+    height: "500px";
 }
-
-
 
 .carousel-indicators button {
     height: 10px !important;
@@ -70,10 +54,8 @@
     border-radius: 100%;
 }
 
-
-
-
 /* Nav-Bar Links*/
+
 .nav-link {
     color: white;
 }
@@ -86,7 +68,7 @@
     max-height: fit-content;
 }
 
-/*Css of scrollcard*/
+/*Css of card*/
 
 @media screen and (max-width: 768px) {
 
@@ -122,7 +104,7 @@
 }
 
 
-.col-sm-2 {
+.icon {
     height: auto;
     width: auto;
     box-shadow: 2px 2px 2px 2px grey;
@@ -130,6 +112,7 @@
 
 .img-rounded {
     border-radius: 8px 0px 0px 8px;
+    height: 150px;
     padding: 0;
 }
 
@@ -144,7 +127,6 @@
 .card-body {
     max-width: auto;
     height: auto;
-
 }
 
 .card-title {
@@ -154,33 +136,34 @@
 .button {
     float: right;
     margin: 20px 20px 20px 20px;
-
 }
 
 
-/*ScrollCard*/
+/*Css of scrollcard*/
+
 .rightside {
     margin: 30px 0px 30px 0px;
     float: center;
     height: auto;
     width: 100%;
-
 }
 
 .scrollcard {
-    margin: 30px 0px 0px 0px;
+    margin-top: 30px ;
     width: 100%;
-    height: 900px;
+    height: 700px;
     float: left;
     box-shadow: 5px 5px 5px 5px grey;
     border-radius: 20px;
     border: 1px black;
     padding: 10px;
-
 }
 
 .card-header {
     text-align: left;
+    background-color: #18A8D8;
+    color: white;
+    margin-bottom: 1rem;
 }
 
 .card:hover {
@@ -197,7 +180,7 @@
 }
 
 .scrollcard-text {
-    max-height: 780px;
+    max-height: 600px;
     width: 100%;
     overflow-y: scroll;
 }
@@ -210,14 +193,32 @@
 }
 
 /*footer*/
-.footer-content {
+.footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: auto;
+    bottom: 0;
 }
-
-.mb-4 {
+ 
+.socialmedia {
     text-align: center;
     float: right;
-    padding: 2rem;
-}
+    margin-top: 2rem;
+} 
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 20px;
+  }
+  
